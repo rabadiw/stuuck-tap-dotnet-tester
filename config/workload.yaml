@@ -7,11 +7,11 @@ metadata:
     app.kubernetes.io/part-of: stuuck-tap-dotnet-tester
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: steeltoe
-    tanzu.app.live.view.application.name: weatherforecast-steeltoe
+    tanzu.app.live.view.application.name: stuuck-tap-dotnet-tester
 spec:
   source:
     git:
       url: https://github.com/rabadiw/stuuck-tap-dotnet-tester
       ref:
         branch: base
-#    subPath: weatherforecast-steeltoe
+        #    subPath: stuuck-tap-dotnet-tester
