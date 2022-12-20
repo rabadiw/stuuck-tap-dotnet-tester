@@ -9,6 +9,10 @@ metadata:
     tanzu.app.live.view.application.flavours: steeltoe
     tanzu.app.live.view.application.name: stuuck-tap-dotnet-tester
 spec:
+  params:
+    - name: annotations
+      value:
+        autoscaling.knative.dev/minScale: "0"
   source:
     git:
       url: https://github.com/rabadiw/stuuck-tap-dotnet-tester
